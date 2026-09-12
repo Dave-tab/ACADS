@@ -1,0 +1,8 @@
+{
+  "name": "ACADS",
+  "description": "ACADS - A comprehensive academic result management and performance tracking platform for students and administration.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

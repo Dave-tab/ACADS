@@ -1,0 +1,248 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "student_id": "2024235020409",
+      "name": "Alex Morgan",
+      "email": "alex.morgan@school.edu",
+      "password": "password123",
+      "department": "Computer Science",
+      "semester": 3,
+      "created_at": "2024-09-01 10:00:00"
+    },
+    {
+      "id": 2,
+      "student_id": "2024235020410",
+      "name": "Sarah Connor",
+      "email": "sarah.connor@school.edu",
+      "password": "password123",
+      "department": "Computer Science",
+      "semester": 3,
+      "created_at": "2024-09-02 11:30:00"
+    },
+    {
+      "id": 3,
+      "student_id": "2024235020411",
+      "name": "David Turing",
+      "email": "david.turing@school.edu",
+      "password": "password123",
+      "department": "Mathematics",
+      "semester": 2,
+      "created_at": "2024-09-03 09:15:00"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "course_code": "CS101",
+      "course_name": "Introduction to Programming",
+      "credit_hours": 3,
+      "department": "Computer Science"
+    },
+    {
+      "id": 2,
+      "course_code": "CS102",
+      "course_name": "Data Structures & Algorithms",
+      "credit_hours": 4,
+      "department": "Computer Science"
+    },
+    {
+      "id": 3,
+      "course_code": "CS103",
+      "course_name": "Database Systems",
+      "credit_hours": 3,
+      "department": "Computer Science"
+    },
+    {
+      "id": 4,
+      "course_code": "CS104",
+      "course_name": "Web Development",
+      "credit_hours": 3,
+      "department": "Computer Science"
+    },
+    {
+      "id": 5,
+      "course_code": "MATH101",
+      "course_name": "Calculus I",
+      "credit_hours": 4,
+      "department": "Mathematics"
+    },
+    {
+      "id": 6,
+      "course_code": "MATH102",
+      "course_name": "Linear Algebra",
+      "credit_hours": 3,
+      "department": "Mathematics"
+    },
+    {
+      "id": 7,
+      "course_code": "ENG101",
+      "course_name": "English Composition",
+      "credit_hours": 3,
+      "department": "English"
+    },
+    {
+      "id": 8,
+      "course_code": "PHY101",
+      "course_name": "Physics I",
+      "credit_hours": 4,
+      "department": "Physics"
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "student_id": "2024235020409",
+      "course_code": "CS101",
+      "marks_obtained": 92,
+      "total_marks": 100,
+      "grade": "A+",
+      "grade_point": 4,
+      "semester": 1,
+      "academic_year": "2023-2024",
+      "uploaded_at": "2024-01-15 14:20:00"
+    },
+    {
+      "id": 2,
+      "student_id": "2024235020409",
+      "course_code": "MATH101",
+      "marks_obtained": 88,
+      "total_marks": 100,
+      "grade": "A",
+      "grade_point": 3.7,
+      "semester": 1,
+      "academic_year": "2023-2024",
+      "uploaded_at": "2024-01-15 14:25:00"
+    },
+    {
+      "id": 3,
+      "student_id": "2024235020409",
+      "course_code": "ENG101",
+      "marks_obtained": 78,
+      "total_marks": 100,
+      "grade": "B+",
+      "grade_point": 3,
+      "semester": 1,
+      "academic_year": "2023-2024",
+      "uploaded_at": "2024-01-15 14:30:00"
+    },
+    {
+      "id": 4,
+      "student_id": "2024235020409",
+      "course_code": "CS102",
+      "marks_obtained": 84,
+      "total_marks": 100,
+      "grade": "A-",
+      "grade_point": 3.3,
+      "semester": 2,
+      "academic_year": "2023-2024",
+      "uploaded_at": "2024-06-10 10:00:00"
+    },
+    {
+      "id": 5,
+      "student_id": "2024235020409",
+      "course_code": "CS103",
+      "marks_obtained": 91,
+      "total_marks": 100,
+      "grade": "A+",
+      "grade_point": 4,
+      "semester": 2,
+      "academic_year": "2023-2024",
+      "uploaded_at": "2024-06-10 10:05:00"
+    },
+    {
+      "id": 6,
+      "student_id": "2024235020410",
+      "course_code": "CS101",
+      "marks_obtained": 76,
+      "total_marks": 100,
+      "grade": "B+",
+      "grade_point": 3,
+      "semester": 1,
+      "academic_year": "2023-2024",
+      "uploaded_at": "2024-01-15 15:00:00"
+    },
+    {
+      "id": 7,
+      "student_id": "2024235020410",
+      "course_code": "PHY101",
+      "marks_obtained": 68,
+      "total_marks": 100,
+      "grade": "B-",
+      "grade_point": 2.3,
+      "semester": 1,
+      "academic_year": "2023-2024",
+      "uploaded_at": "2024-01-15 15:10:00"
+    },
+    {
+      "id": 8,
+      "student_id": "2024235020409",
+      "course_code": "CS104",
+      "marks_obtained": 89,
+      "total_marks": 100,
+      "grade": "A",
+      "grade_point": 3.7,
+      "semester": 3,
+      "academic_year": "2024-2025",
+      "uploaded_at": "2025-01-12 09:30:00"
+    },
+    {
+      "id": 9,
+      "student_id": "2024235020409",
+      "course_code": "MATH102",
+      "marks_obtained": 82,
+      "total_marks": 100,
+      "grade": "A-",
+      "grade_point": 3.3,
+      "semester": 3,
+      "academic_year": "2024-2025",
+      "uploaded_at": "2025-01-12 09:35:00"
+    }
+  ],
+  "notices": [
+    {
+      "id": "notice-1",
+      "title": "Spring 2026 Final Examination Timetable & Seating Allocation Published",
+      "category": "Examination",
+      "content": "The official schedule for Spring 2026 End-of-Semester Examinations is now released. Students must present a valid Student ID Card and examination docket at all designated lecture halls. Morning sessions commence promptly at 09:00 AM.",
+      "date": "2026-04-12",
+      "timeAgo": "Just now",
+      "priority": "high",
+      "isRead": true,
+      "author": "Office of the Controller of Examinations"
+    },
+    {
+      "id": "notice-2",
+      "title": "Senate Commendation: Dean's Honors List for Spring 2026",
+      "category": "Academic Senate",
+      "content": "The Academic Senate has ratified the Dean's Honors Roll. Undergraduate scholars maintaining a cumulative CGPA of 3.75 and above with no course deficiencies have been awarded formal senate commendation.",
+      "date": "2026-04-09",
+      "timeAgo": "2 days ago",
+      "priority": "normal",
+      "isRead": true,
+      "author": "University Academic Senate"
+    },
+    {
+      "id": "notice-3",
+      "title": "Official Academic Transcript Attestation & Verification Window",
+      "category": "Academic Senate",
+      "content": "The Academic Records Division has opened digital transcript attestation for upcoming graduate school and scholarship submissions. Processing turnaround is 48 business hours.",
+      "date": "2026-03-30",
+      "timeAgo": "1 week ago",
+      "priority": "normal",
+      "isRead": true,
+      "author": "Academic Records & Certification"
+    },
+    {
+      "id": "notice-4",
+      "title": "Grade Verification & Examination Audit Appeal Deadline",
+      "category": "Deadlines",
+      "content": "Students wishing to request a formal re-computation or script review for published semester results must submit Form AR-12 to their respective department chair by April 24, 2026.",
+      "date": "2026-03-20",
+      "timeAgo": "2 weeks ago",
+      "priority": "urgent",
+      "isRead": true,
+      "author": "Academic Records Department"
+    }
+  ]
+}
