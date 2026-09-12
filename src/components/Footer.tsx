@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
 
         {/* User-requested exact attribution */}
         <div className="text-xs font-mono font-medium text-slate-600 dark:text-slate-400 flex items-center justify-center gap-1.5">
-          <span>@2026 designed and developed by</span>
+          <span>&copy; 2026 Designed & Developed by</span>
           <span className="font-bold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/80 px-2 py-0.5 rounded-md border border-indigo-200/60 dark:border-indigo-800/60">
             | DAYAN
           </span>
